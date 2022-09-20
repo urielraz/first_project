@@ -1,0 +1,184 @@
+html, body{
+    box-sizing: border-box;
+
+    background-image: url(files/tile.jpg);
+    background-repeat: repeat;
+    font-family: 'Mouse Memoirs',  'Suez One', serif;
+    ;
+    
+    font-size: 19px;
+
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+
+    text-align: center;
+    font-size: 50px;
+    margin-top: 2px;
+
+
+}
+
+#formbg{
+    
+    text-align: center;
+    /* margin-left: 350px; */
+    margin-top: 15px;
+    
+}
+
+#text_task{
+    height: 155px;
+    border: darkorange 3px solid;
+    border-radius: 10px;
+    background-image: url(files/formbg.jpg);
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: repeat-y;
+    
+    overflow-y: scroll;
+    width: 620px;
+    /* flex-wrap: wrap; */
+    /* font-family:unset; */
+    font-size: 22.5px;
+    padding-left: 80px;
+    padding-top: 14px;
+}
+
+
+::-webkit-scrollbar
+{
+    
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 14px rgb(199, 60, 60);  */
+    box-shadow: inset 0 0 18px rgb(172, 172, 172); 
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: #74b9ff;
+	border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover
+{
+    
+    cursor: pointer;
+	background-color: #004386;
+	border-radius: 8px;
+}
+
+
+input[type="date"], input[type="time"]{
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 20PX;
+    width: 15%;
+    background-color:rgb(89, 89, 247);
+    
+    
+}
+
+button[type="submit"]{
+    margin: 0 10px 0 10px ;
+    /* margin-left: 90px; */
+}
+
+.notes{
+    margin: 12px 0 0 7px;
+    background-image: url(files/notebg.png);
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    background-size: contain;
+    height: 250px;  
+    width: 200px;
+    font-size: 14px;
+        font-family: sans-serif;
+        /* animation-name: anim ;
+        animation-duration: 1s; */
+        /* animation-delay: 5s; */
+        /* animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-fill-mode: both;
+        animation-timing-function: ease-in; */
+        /* animation: anim 1s 1 linear  alternate both; */
+
+       
+
+}
+.fadeIn{
+     
+   
+}
+
+.new_class{
+   
+}
+ 
+@keyframes fadeIn {
+    0% {opacity: 0.0;}
+    /* 25% {opacity: 0.3;} */
+    50% {opacity: 0.5;}
+    /* 75% {opacity: 0.8;} */
+    100% {opacity: 1;}
+} 
+
+#print_task{
+    position: absolute;
+    
+    overflow-y:scroll;
+    background-color: transparent;
+    background-size: cover;
+
+    margin: 25px 7px 20px 7px;
+    /* margin-top: 20px; */
+    height: 170px;  
+    width: 170px;
+    
+    /* border: bisque solid 5px; */
+    
+
+
+    display: inline-block;
+    
+}
+#date_and_time{
+    position: absolute;
+
+    /* border: #004386 solid 5px; */
+    /* margin-top: 20px; */
+    margin: 200px 0 0 3px;
+}
+.glyphicon{
+    /* margin-left: 90px ;
+    display: none; */
+    background-color: red;
+    /* margin: 15px 0 0 150px; */
+    cursor: pointer;
+    font-size: 16px;
+    height: 24px;
+    border-radius: 7px;
+    display: none;
+    position: absolute;
+    margin: 1px 0 0 160px  ;
+    border: black solid 3px;
+}
+.notes:hover .glyphicon{
+    /* position: fixed; */
+    display:inline;
+
+    
+}
+    
+
+
+/* #print_task .top{
+    background-color: red;
+
+}
+ */
